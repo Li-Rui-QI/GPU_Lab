@@ -4,6 +4,14 @@
 #include <directxmath.h>
 #include <directxcolors.h>
 #include <string>
+#include "renderdoc_app.h"
+
+#pragma comment(lib,"d3dcompiler.lib")
+#pragma comment( lib, "user32" )          // link against the win32 library
+#pragma comment( lib, "d3d11.lib" )       // direct3D library
+#pragma comment( lib, "dxgi.lib" )        // directx graphics interface
+#pragma comment( lib, "d3dcompiler.lib" ) // shader compiler
+#pragma comment( lib, "dxguid.lib") 
 
 using namespace DirectX;
 
@@ -149,7 +157,8 @@ HRESULT InitWindow(HINSTANCE hInstance, int nCmdShow)
 }
 
 
-HRESULT CompileShaderFromFile(WCHAR* szFileName, LPCSTR szEntryPoint, LPCSTR szShaderModel, ID3DBlob** ppBlobOut)
+HRESULT CompileShaderFromFile(WCHAR 
+    * szFileName, LPCSTR szEntryPoint, LPCSTR szShaderModel, ID3DBlob** ppBlobOut)
 {
     HRESULT hr = S_OK;
 
@@ -157,7 +166,7 @@ HRESULT CompileShaderFromFile(WCHAR* szFileName, LPCSTR szEntryPoint, LPCSTR szS
 
 
     ID3DBlob* pErrorBlob = nullptr;
-    hr = D3DCompileFromFile(szFileName, nullptr, nullptr, szEntryPoint, szShaderModel,
+    hr = D3DCompileFromFile(szFileName, nullptr, D3D_COMPILE_STANDARD_FILE_INCLUDE, szEntryPoint, szShaderModel,
         dwShaderFlags, 0, ppBlobOut, &pErrorBlob);
     if (FAILED(hr))
     {
