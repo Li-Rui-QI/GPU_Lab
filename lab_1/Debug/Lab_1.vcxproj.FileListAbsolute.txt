@@ -1,0 +1,4 @@
+C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\pixel_shader.cso
+C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\vertex_shader.cso
+C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\Lab_1.exe
+C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\Lab_1.pdb

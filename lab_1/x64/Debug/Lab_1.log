@@ -1,0 +1,5 @@
+﻿  Lab_1.vcxproj -> C:\liruiqi\postgraduate\gpu\Lab_1\x64\Debug\Lab_1.exe
+  'C:\liruiqi\postgraduate\gpu\Lab_1\x64\Debug\' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 命令“C:\liruiqi\postgraduate\gpu\Lab_1\x64\Debug\
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: :VCEnd”已退出，代码为 9009。

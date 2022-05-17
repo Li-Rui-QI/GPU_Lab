@@ -1,0 +1,5 @@
+﻿  compilation object save succeeded; see C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\pixel_shader.cso
+  compilation object save succeeded; see C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\vertex_shader.cso
+  main.cpp
+main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Lab_1.vcxproj -> C:\liruiqi\postgraduate\gpu\Lab_1\lab_1\Debug\Lab_1.exe
